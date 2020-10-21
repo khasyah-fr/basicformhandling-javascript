@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    --yellow-ugm-color: #FFD100;
+    --biru-ugm-color: #004A74;
+}
+
+header {
+    height: 12em;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+header ul {
+    height: 100%;
+    width: 40%;
+    float: right;
+    padding: 3em 10% 0 0;
+}
+
+section {
+    padding: 2.5em 10% 2em 15%;
+}
+
+section li {
+    margin-top: 0.5em;
+}
+
+label {
+    width: 6em;
+    display: inline-block;
+    text-align: right;
+ }
+
+select {
+    width: 200px;
+    padding: 3.5px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+}
+
+input {
+    width: 200px;
+    padding: 3.5px 8px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+}
+
+textarea {
+    vertical-align: text-top;
+    width: 290px;
+    padding: 3.5px 8px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;   
+}
+
+#reset {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #F44336;
+    margin-left: 100px;
+    border-radius:0.12em;
+    color:#F44336;
+    background-color: #FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color:#FFFFFF;
+    background-color:#F44336;
+}
+
+#proses {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #4CAF50;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    color:#4CAF50;
+    background-color: #FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#proses:hover {
+    color:#FFFFFF;
+    background-color:#4CAF50;
+}
+
+#result {
+    border-top: solid var(--biru-ugm-color) 0.23em;
+    padding: 1em 22.2%;
+    background-color:#FFFFFF;
+    color: #000000;
+    font-family: sans-serif;
+    line-height: 2.25;
+}
+
+#result h2{
+    margin-bottom: 0.8em;
+}
+
+#result h2 span {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow-ugm-color);
+}
+
+#result h4 span {
+    color: var(--biru-ugm-color);
+}
+
+#result h5{
+    padding: 1em 2.5em;
+}

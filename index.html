@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "https://agricia.faperta.ugm.ac.id/wp-content/uploads/sites/377/2018/06/logo-ugm-png-768x797.png" type = "image/x-icon">
+    <title>UTS Pemrograman Web</title>
+</head>
+<body>
+    <header>
+        <img src="https://i2.wp.com/www.jokowinomics.id/wp-content/uploads/2020/09/Logo-Horizontal-Stack-Up-scaled.jpg" alt="Logo UGM">
+        <ul>
+            <h4>Ujian Tengah Semester</h4>
+            <li>Nama : Fitra Rahmani Khasyah</li>
+            <li>NIM : 18/424186/PA/18291</li>
+        </ul>
+    </header>
+    <section>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="major">Major :</label>
+                    <select name="major" id="major">
+                        <option value="astronomi">Astronomi</option>
+                        <option value="bisnis">Bisnis</option>
+                        <option value="computerscience">Computer Science</option>
+                        <option value="kedokteran">Kedokteran</option>
+                        <option value="hukum">Hukum</option>
+                        <option value="matematika">Matematika</option>
+                        <option value="psikologi">Psikologi</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="nama">Nama :</label>
+                    <input type="text" name="nama" id="nama" required>
+                </li>
+                <li>
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" id="email" required>
+                </li>
+                <li>
+                    <label for="komentar">Komentar :</label>
+                    <textarea name="komentar" id="komentar" cols="30" rows="10"></textarea>
+                </li>
+                <li>
+                    <button type="reset" id="reset" onclick="resetResult()">Reset</button>
+                    <button type="button" id="proses" onclick="showResult()">Proses</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <div id="result" style="visibility: hidden;">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
